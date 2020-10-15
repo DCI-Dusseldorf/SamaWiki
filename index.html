@@ -8,14 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
 </head>
 
-    <body>
-    
+    <body>    
         <div class="sidenav">
-           <section class="Logo">
+        <section class="Logo">
             <img  src="https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg" alt="Wikipedia Logo" >
             <h2>Wikipedia</h2>
-            </section>
-            <section>
+        </section>
+        <section>
           <a href="#">Main page</a>
           <a href="#">Contents</a>
           <a href="#">Current events</a>
@@ -25,9 +24,15 @@
           <a href="#">Donate</a>
           </section>
         </div>
-        
+         
         
         <div class="main">
+            <div class="topnav">
+                <a class="active" href="#">Article</a>
+                <a href="#">Read</a>
+                <a href="#">Edit</a>
+                <textarea id="input"></textarea><button onclick="search()">Search</button>
+            </div>  
           <h2>Sidebar</h2>
           <p>This sidebar is of full height (100%) and always shown.</p>
           <p>Scroll down the page to see the result.</p>
